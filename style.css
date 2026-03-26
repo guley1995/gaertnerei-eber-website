@@ -783,6 +783,61 @@ a:hover {
     transform: translateY(-3px);
 }
 
+/* Instagram Button */
+.instagram-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    color: var(--white) !important;
+    padding: 13px 28px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all var(--transition);
+    box-shadow: 0 4px 16px rgba(131, 58, 180, 0.3);
+}
+
+.instagram-btn:hover {
+    color: var(--white) !important;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 24px rgba(131, 58, 180, 0.4);
+}
+
+.kontakt-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+/* Footer Social Icons */
+.footer-social {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.08);
+    color: rgba(255,255,255,0.6);
+    transition: all var(--transition);
+    padding: 0;
+}
+
+.footer-social a:hover {
+    background: rgba(255,255,255,0.15);
+    color: var(--white);
+    transform: translateY(-2px);
+    padding-left: 0;
+}
+
 /* Floating WhatsApp */
 .whatsapp-float {
     position: fixed;
