@@ -783,6 +783,43 @@ a:hover {
     transform: translateY(-3px);
 }
 
+/* Instagram Feed Section */
+.section-subtitle {
+    text-align: center;
+    color: var(--text-light);
+    font-size: 1.02rem;
+    margin-top: 12px;
+}
+
+.section-subtitle a {
+    font-weight: 600;
+}
+
+.instagram-feed {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.instagram-placeholder {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 60px 40px;
+    text-align: center;
+    border: 2px dashed rgba(26,74,26,0.12);
+}
+
+.instagram-placeholder svg {
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+.instagram-placeholder p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+}
+
 /* Instagram Button */
 .instagram-btn {
     display: inline-flex;
